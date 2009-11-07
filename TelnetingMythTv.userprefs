@@ -1,0 +1,37 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.DebuggingService>
+    <BreakpointStore>
+      <Breakpoint file="/home/harry/Projects/TelnetingMythTv/TelnetingMythTv.ConsoleApp/Main.cs" line="12" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TelnetingMythTv.ConsoleApp/Main.cs" ctype="Workbench">
+    <Files>
+      <File FileName="TelnetingMythTv/MyClass.cs" Line="14" Column="3" />
+      <File FileName="TelnetingMythTv.Tests/MyClass.cs" Line="6" Column="1" />
+      <File FileName="TelnetingMythTv.Console/Main.cs" Line="38" Column="2" />
+      <File FileName="TelnetingMythTv.ConsoleApp/Main.cs" Line="24" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="TelnetingMythTv" expanded="True" />
+          <Node name="TelnetingMythTv.ConsoleApp" expanded="True" />
+          <Node name="TelnetingMythTv.Tests" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
