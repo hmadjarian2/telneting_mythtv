@@ -8,3 +8,8 @@ C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\Te
 C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.ConsoleApp\bin\Debug\TelnetingMythTv.ConsoleApp.exe
 C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.ConsoleApp\bin\Debug\TelnetingMythTv.ConsoleApp.pdb
 C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.ConsoleApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\obj\Debug\TelnetingMythTv.ConsoleApp.exe
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\obj\Debug\TelnetingMythTv.ConsoleApp.pdb
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\bin\Debug\TelnetingMythTv.ConsoleApp.exe
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\bin\Debug\TelnetingMythTv.ConsoleApp.pdb
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\obj\Debug\ResolveAssemblyReference.cache

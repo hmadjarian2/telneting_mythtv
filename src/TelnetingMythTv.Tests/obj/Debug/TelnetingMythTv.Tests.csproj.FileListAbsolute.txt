@@ -7,3 +7,11 @@ C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\Te
 C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.Tests\obj\Debug\TelnetingMythTv.Tests.pdb
 C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.dll
 C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.pdb
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.Tests.dll
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.Tests.pdb
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.dll
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.pdb
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\obj\Debug\TelnetingMythTv.Tests.dll
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\obj\Debug\TelnetingMythTv.Tests.pdb

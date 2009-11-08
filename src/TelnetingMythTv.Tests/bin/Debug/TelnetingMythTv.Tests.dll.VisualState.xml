@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
-  <TopNode>[0-1006]C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.Tests.dll</TopNode>
-  <SelectedNode>[0-1003]TelnetingMythTv.Tests.MythProtocolTests</SelectedNode>
+  <TopNode>[0-1006]C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.Tests.dll</TopNode>
+  <SelectedNode>[0-1006]C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.Tests.dll</SelectedNode>
   <ExcludeCategories>false</ExcludeCategories>
   <Nodes>
-    <Node UniqueName="[0-1006]C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1006]C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.Tests.dll" Expanded="true" />
     <Node UniqueName="[0-1007]TelnetingMythTv" Expanded="true" />
     <Node UniqueName="[0-1008]TelnetingMythTv.Tests" Expanded="true" />
-    <Node UniqueName="[0-1003]TelnetingMythTv.Tests.MythProtocolTests" Expanded="true" />
-    <Node UniqueName="[0-1000]TelnetingMythTv.Tests.StringFormatTests" Expanded="true" />
+    <Node UniqueName="[0-1000]TelnetingMythTv.Tests.MythProtocolTests" Expanded="true" />
+    <Node UniqueName="[0-1004]TelnetingMythTv.Tests.StringFormatTests" Expanded="true" />
   </Nodes>
 </VisualState>

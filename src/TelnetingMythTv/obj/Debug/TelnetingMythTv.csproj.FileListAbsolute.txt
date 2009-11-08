@@ -8,3 +8,8 @@ C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\Te
 C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv\obj\Debug\TelnetingMythTv.dll
 C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv\obj\Debug\TelnetingMythTv.pdb
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv\bin\Debug\TelnetingMythTv.dll
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv\bin\Debug\TelnetingMythTv.pdb
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv\obj\Debug\TelnetingMythTv.dll
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv\obj\Debug\TelnetingMythTv.pdb

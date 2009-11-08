@@ -25,8 +25,20 @@ namespace TelnetingMythTv.Tests
 
             var command = new ServerCommand(connection);
             command.CommandText = "MYTH_PROTO_VERSION 40";
-            command.Execute();
+            var result = command.Execute();
+            Console.WriteLine(result);
 
+            command.CommandText = "ANN Monitor CENA 0";
+            result = command.Execute();
+            Console.WriteLine(result);
+
+            command.CommandText = "QUERY_RECORDINGS Play";
+            result = command.Execute();
+            Console.WriteLine(result);
+
+            command.CommandText = "DONE";
+            result = command.Execute();
+            Console.WriteLine(result);
         }
 	}
 }
