@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.Tests.dll" total="2" errors="1" failures="0" not-run="0" ignored="0" skipped="0" invalid="0" date="2009-11-07" time="12:13:56">
+  <environment nunit-version="2.5.0.9122" clr-version="2.0.50727.3603" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.Tests\bin\Debug" machine-name="BABA-BOOEY" user="Harry" user-domain="BABA-BOOEY" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.Tests.dll" executed="True" success="False" time="0.594" asserts="0">
+    <results>
+      <test-suite name="TelnetingMythTv" executed="True" success="False" time="0.578" asserts="0">
+        <results>
+          <test-suite name="Tests" executed="True" success="False" time="0.563" asserts="0">
+            <results>
+              <test-suite name="MythProtocolTests" executed="True" success="False" time="0.531" asserts="0">
+                <results>
+                  <test-case name="TelnetingMythTv.Tests.MythProtocolTests.CanConnectToMythBackend" executed="True" success="True" time="0.453" asserts="1" />
+                  <test-case name="TelnetingMythTv.Tests.MythProtocolTests.CanSendCommand" executed="True" success="False" time="0.047" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                      <stack-trace><![CDATA[at TelnetingMythTv.ServerCommand.Execute() in C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv\ServerCommand.cs:line 20
+at TelnetingMythTv.Tests.MythProtocolTests.CanSendCommand() in C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.Tests\MythProtocolTests.cs:line 28
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

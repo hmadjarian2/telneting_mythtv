@@ -1,0 +1,10 @@
+C:\Documents and Settings\Harry\My Documents\Visual Studio 2008\Projects\TelnetingMythTv\TelnetingMythTv\bin\Debug\TelnetingMythTv.dll
+C:\Documents and Settings\Harry\My Documents\Visual Studio 2008\Projects\TelnetingMythTv\TelnetingMythTv\bin\Debug\TelnetingMythTv.pdb
+C:\Documents and Settings\Harry\My Documents\Visual Studio 2008\Projects\TelnetingMythTv\TelnetingMythTv\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Harry\My Documents\Visual Studio 2008\Projects\TelnetingMythTv\TelnetingMythTv\obj\Debug\TelnetingMythTv.dll
+C:\Documents and Settings\Harry\My Documents\Visual Studio 2008\Projects\TelnetingMythTv\TelnetingMythTv\obj\Debug\TelnetingMythTv.pdb
+C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv\bin\Debug\TelnetingMythTv.dll
+C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv\bin\Debug\TelnetingMythTv.pdb
+C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv\obj\Debug\TelnetingMythTv.dll
+C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv\obj\Debug\TelnetingMythTv.pdb

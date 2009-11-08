@@ -1,0 +1,10 @@
+C:\Documents and Settings\Harry\My Documents\Visual Studio 2008\Projects\TelnetingMythTv\TelnetingMythTv.ConsoleApp\bin\Debug\TelnetingMythTv.ConsoleApp.exe
+C:\Documents and Settings\Harry\My Documents\Visual Studio 2008\Projects\TelnetingMythTv\TelnetingMythTv.ConsoleApp\bin\Debug\TelnetingMythTv.ConsoleApp.pdb
+C:\Documents and Settings\Harry\My Documents\Visual Studio 2008\Projects\TelnetingMythTv\TelnetingMythTv.ConsoleApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Harry\My Documents\Visual Studio 2008\Projects\TelnetingMythTv\TelnetingMythTv.ConsoleApp\obj\Debug\TelnetingMythTv.ConsoleApp.exe
+C:\Documents and Settings\Harry\My Documents\Visual Studio 2008\Projects\TelnetingMythTv\TelnetingMythTv.ConsoleApp\obj\Debug\TelnetingMythTv.ConsoleApp.pdb
+C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.ConsoleApp\obj\Debug\TelnetingMythTv.ConsoleApp.exe
+C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.ConsoleApp\obj\Debug\TelnetingMythTv.ConsoleApp.pdb
+C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.ConsoleApp\bin\Debug\TelnetingMythTv.ConsoleApp.exe
+C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.ConsoleApp\bin\Debug\TelnetingMythTv.ConsoleApp.pdb
+C:\Documents and Settings\Harry\My Documents\Dev\Projects\TelnetingMythTv\src\TelnetingMythTv.ConsoleApp\obj\Debug\ResolveAssemblyReference.cache
