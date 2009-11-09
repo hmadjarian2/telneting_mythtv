@@ -26,7 +26,9 @@ namespace TelnetingMythTv.ConsoleApp
 			command.CommandText = "QUERY_RECORDINGS Play";
 			result = command.Execute();
 			Console.WriteLine(result);
-			
+
+            CreateRecordings(result);
+
 //			command = new ServerCommand(connection);
 			command.CommandText = "DONE";
 			result = command.Execute();
@@ -47,7 +49,7 @@ namespace TelnetingMythTv.ConsoleApp
 			response = SendCommand(client, "DONE");
 			Console.WriteLine(response + "\n");
 */
-            //Console.ReadLine();
+            Console.ReadLine();
 		}
 		
 		private static string SendCommand(TcpClient client, string command)
@@ -68,5 +70,16 @@ namespace TelnetingMythTv.ConsoleApp
         	
 			return Encoding.ASCII.GetString(bufferBytes, 0, bufferSize);
 		}
+
+        private static void CreateRecordings(string result)
+        {
+            result = result.Substring(8);
+
+            var recordingsCount = int.Parse(result.Substring(0, result.IndexOf("[]:[]")));
+
+            result = result.Substring(result.IndexOf("[") + 5);
+
+
+        }
 	}
 }

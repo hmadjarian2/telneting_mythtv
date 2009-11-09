@@ -31,7 +31,7 @@ namespace TelnetingMythTv.Tests
             command.CommandText = "ANN Monitor Cena 0";
             result = command.Execute();
             Console.WriteLine(result);
-/*
+
             command.CommandText = "QUERY_RECORDINGS Play";
             result = command.Execute();
             Console.WriteLine(result);
@@ -39,7 +39,43 @@ namespace TelnetingMythTv.Tests
             command.CommandText = "DONE";
             result = command.Execute();
             Console.WriteLine(result);
-*/
+
 		}
+
+        [Test]
+        public void CanConvertResultToRecording()
+        {
+            var connection = new ServerConnection("192.168.1.10");
+            connection.Open();
+
+            var command = new ServerCommand(connection);
+            command.CommandText = "MYTH_PROTO_VERSION 40";
+            var result = command.Execute();
+            Console.WriteLine(result);
+
+            command.CommandText = "ANN Monitor Cena 0";
+            result = command.Execute();
+            Console.WriteLine(result);
+
+            command.CommandText = "QUERY_RECORDINGS Play";
+            result = command.Execute();
+            Console.WriteLine(result);
+            
+            command.CommandText = "DONE";
+            command.Execute();
+
+            CreateRecordings(result);
+        }
+
+        private void CreateRecordings(string result)
+        {
+            result = result.Substring(8);
+
+            var recordingsCount = int.Parse(result.Substring(0, result.IndexOf("[]:[]")));
+
+            result = result.Substring(result.IndexOf("[") + 5);
+
+
+        }
 	}
 }
