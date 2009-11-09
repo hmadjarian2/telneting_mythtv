@@ -21,19 +21,26 @@ namespace TelnetingMythTv
             var message = BuildMessage();
             var stream = _connection.GetStream();
 
-            var reader = new StreamReader(stream);
-            var writer = new StreamWriter(stream);
+            //var reader = new StreamReader(stream);
+            //var writer = new StreamWriter(stream);
 
-            writer.WriteLine(message);
-            writer.Flush();
+            //writer.WriteLine(message);
+            //writer.Flush();
 
+			var sendBytes = Encoding.ASCII.GetBytes(message);
+			
+        	stream.Write(sendBytes, 0, sendBytes.Length);
+        	
             var result = string.Empty;
 
             var buffer = new byte[100];
-            int bytes = stream.Read(buffer, 0, buffer.Length);
-            for (int i = 0; i < bytes; i++)
-                result += Convert.ToChar(buffer[i]);
-
+            var bytesRead = 0; //stream.Read(buffer, 0, buffer.Length);
+            
+			while (stream.DataAvailable && (bytesRead = stream.Read(buffer, 0, 100)) > 0)
+			{
+				result += Encoding.ASCII.GetString(buffer);
+			}
+			
             return result;
         }
 

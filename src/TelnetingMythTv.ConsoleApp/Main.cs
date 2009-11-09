@@ -9,6 +9,30 @@ namespace TelnetingMythTv.ConsoleApp
 	{
 		public static void Main(string[] args)
 		{
+			var connection = new ServerConnection("192.168.1.10", 6543);
+			connection.Open();
+			
+			var command = new ServerCommand(connection);
+			command.CommandText = "MYTH_PROTO_VERSION 40";
+			var result = command.Execute();	
+			Console.WriteLine(result);
+			
+//			command = new ServerCommand(connection);
+			command.CommandText = "ANN Monitor Cena 0";
+			result = command.Execute();
+			Console.WriteLine(result);
+			
+//			command = new ServerCommand(connection);
+			command.CommandText = "QUERY_RECORDINGS Play";
+			result = command.Execute();
+			Console.WriteLine(result);
+			
+//			command = new ServerCommand(connection);
+			command.CommandText = "DONE";
+			result = command.Execute();
+			Console.WriteLine(result);
+			
+			/*
 			var client = new TcpClient("192.168.1.10", 6543);
 			
 			var response = SendCommand(client, "MYTH_PROTO_VERSION 40");
@@ -22,8 +46,8 @@ namespace TelnetingMythTv.ConsoleApp
 			
 			response = SendCommand(client, "DONE");
 			Console.WriteLine(response + "\n");
-
-            Console.ReadLine();
+*/
+            //Console.ReadLine();
 		}
 		
 		private static string SendCommand(TcpClient client, string command)

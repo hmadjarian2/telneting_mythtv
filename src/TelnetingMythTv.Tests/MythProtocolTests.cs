@@ -28,10 +28,10 @@ namespace TelnetingMythTv.Tests
             var result = command.Execute();
             Console.WriteLine(result);
 
-            command.CommandText = "ANN Monitor CENA 0";
+            command.CommandText = "ANN Monitor Cena 0";
             result = command.Execute();
             Console.WriteLine(result);
-
+/*
             command.CommandText = "QUERY_RECORDINGS Play";
             result = command.Execute();
             Console.WriteLine(result);
@@ -39,6 +39,7 @@ namespace TelnetingMythTv.Tests
             command.CommandText = "DONE";
             result = command.Execute();
             Console.WriteLine(result);
-        }
+*/
+		}
 	}
 }
