@@ -15,3 +15,5 @@ C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\T
 C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\bin\Debug\TelnetingMythTv.dll
 C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\bin\Debug\TelnetingMythTv.pdb
+C:\repositories\github\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\obj\Debug\TelnetingMythTv.ConsoleApp.exe
+C:\repositories\github\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\obj\Debug\TelnetingMythTv.ConsoleApp.pdb

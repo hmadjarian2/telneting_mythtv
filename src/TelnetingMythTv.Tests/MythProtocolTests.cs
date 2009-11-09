@@ -75,6 +75,7 @@ namespace TelnetingMythTv.Tests
 
             result = result.Substring(result.IndexOf("[") + 5);
 
+            recordingsCount = 0;
 
         }
 	}
