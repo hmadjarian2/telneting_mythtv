@@ -9,7 +9,7 @@ namespace TelnetingMythTv.ConsoleApp
 	{
 		public static void Main(string[] args)
 		{
-			var connection = new ServerConnection("192.168.1.10", 6543);
+/*			var connection = new ServerConnection("192.168.1.10", 6543);
 			connection.Open();
 			
 			var command = new ServerCommand(connection);
@@ -33,8 +33,8 @@ namespace TelnetingMythTv.ConsoleApp
 			command.CommandText = "DONE";
 			result = command.Execute();
 			Console.WriteLine(result);
+*/			
 			
-			/*
 			var client = new TcpClient("192.168.1.10", 6543);
 			
 			var response = SendCommand(client, "MYTH_PROTO_VERSION 40");
@@ -43,12 +43,14 @@ namespace TelnetingMythTv.ConsoleApp
 			response = SendCommand(client, "ANN Monitor Cena 0");
 			Console.WriteLine(response + "\n");
 			
-			response = SendCommand(client, "QUERY_RECORDINGS Play");
+			response = SendCommand(client, "QUERY_RECORDINGS Delete");
 			Console.WriteLine(response + "\n");
-			
+
+            CreateRecordings(response);
+
 			response = SendCommand(client, "DONE");
 			Console.WriteLine(response + "\n");
-*/
+
             Console.ReadLine();
 		}
 		
@@ -79,7 +81,22 @@ namespace TelnetingMythTv.ConsoleApp
 
             result = result.Substring(result.IndexOf("[") + 5);
 
+            var arr = result.Split("[]:[]".ToCharArray());
 
+            var recordings = new string[recordingsCount, 47];
+
+            var someOtherIndex = 0;
+
+            for (var index = 0; index < recordingsCount; index++)
+            {
+                for (var field = 0; field < 47; field++)
+                {
+                    if (someOtherIndex >= arr.Length) break;
+                    recordings[index, field] = arr[someOtherIndex];
+                    someOtherIndex++;
+                }
+                if (someOtherIndex >= arr.Length) break;
+            }
         }
-	}
+    }
 }

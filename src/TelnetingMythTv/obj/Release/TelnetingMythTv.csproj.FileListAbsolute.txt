@@ -1,0 +1,3 @@
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv\bin\Release\TelnetingMythTv.dll
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv\obj\Release\TelnetingMythTv.dll

@@ -1,0 +1,4 @@
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\bin\Release\TelnetingMythTv.ConsoleApp.exe
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\bin\Release\TelnetingMythTv.dll
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.ConsoleApp\obj\Release\TelnetingMythTv.ConsoleApp.exe

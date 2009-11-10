@@ -1,0 +1,5 @@
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Release\TelnetingMythTv.Tests.dll
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Release\nunit.framework.dll
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Release\TelnetingMythTv.dll
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\obj\Release\TelnetingMythTv.Tests.dll
