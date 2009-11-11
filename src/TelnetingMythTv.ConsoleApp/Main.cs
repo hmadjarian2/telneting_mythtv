@@ -2,6 +2,7 @@ using System;
 using System.Net.Sockets;
 using System.IO;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace TelnetingMythTv.ConsoleApp
 {
@@ -9,7 +10,7 @@ namespace TelnetingMythTv.ConsoleApp
 	{
 		public static void Main(string[] args)
 		{
-/*			var connection = new ServerConnection("192.168.1.10", 6543);
+			var connection = new ServerConnection("192.168.1.10", 6543);
 			connection.Open();
 			
 			var command = new ServerCommand(connection);
@@ -23,7 +24,7 @@ namespace TelnetingMythTv.ConsoleApp
 			Console.WriteLine(result);
 			
 //			command = new ServerCommand(connection);
-			command.CommandText = "QUERY_RECORDINGS Play";
+			command.CommandText = "QUERY_RECORDINGS Delete";
 			result = command.Execute();
 			Console.WriteLine(result);
 
@@ -33,7 +34,7 @@ namespace TelnetingMythTv.ConsoleApp
 			command.CommandText = "DONE";
 			result = command.Execute();
 			Console.WriteLine(result);
-*/			
+/*	
 			
 			var client = new TcpClient("192.168.1.10", 6543);
 			
@@ -52,6 +53,7 @@ namespace TelnetingMythTv.ConsoleApp
 			Console.WriteLine(response + "\n");
 
             Console.ReadLine();
+*/
 		}
 		
 		private static string SendCommand(TcpClient client, string command)
@@ -81,15 +83,18 @@ namespace TelnetingMythTv.ConsoleApp
 
             result = result.Substring(result.IndexOf("[") + 5);
 
-            var arr = result.Split("[]:[]".ToCharArray());
+            //var arr = result.Split("[]:[]".ToCharArray());
+			//var arr = Regex.Split(result, "[]:[]");
+			string Delimiter = "[]:[]";  
+			var arr = result.Split(new[] { Delimiter }, StringSplitOptions.None);
 
-            var recordings = new string[recordingsCount, 47];
+            var recordings = new string[recordingsCount, 46];
 
             var someOtherIndex = 0;
 
             for (var index = 0; index < recordingsCount; index++)
             {
-                for (var field = 0; field < 47; field++)
+                for (var field = 0; field < 46; field++)
                 {
                     if (someOtherIndex >= arr.Length) break;
                     recordings[index, field] = arr[someOtherIndex];
