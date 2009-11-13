@@ -35,7 +35,7 @@ namespace TelnetingMythTv.ConsoleApp
 			result = command.Execute();
 			Console.WriteLine(result);
 /*	
-			
+		    
 			var client = new TcpClient("192.168.1.10", 6543);
 			
 			var response = SendCommand(client, "MYTH_PROTO_VERSION 40");
@@ -51,9 +51,9 @@ namespace TelnetingMythTv.ConsoleApp
 
 			response = SendCommand(client, "DONE");
 			Console.WriteLine(response + "\n");
-
-            Console.ReadLine();
 */
+            Console.ReadLine();
+
 		}
 		
 		private static string SendCommand(TcpClient client, string command)
@@ -77,7 +77,8 @@ namespace TelnetingMythTv.ConsoleApp
 
         private static void CreateRecordings(string result)
         {
-            result = result.Substring(8);
+            //return;
+            //result = result.Substring(8);
 
             var recordingsCount = int.Parse(result.Substring(0, result.IndexOf("[]:[]")));
 
