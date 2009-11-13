@@ -16,7 +16,7 @@ namespace TelnetingMythTv
 
         public string CommandText { get; set; }
 
-        public string Execute()
+        public string[] Execute()
         {
             var message = BuildMessage();
             var stream = _connection.GetStream();
@@ -31,7 +31,7 @@ namespace TelnetingMythTv
 
             if (result.ToUpper() == "OK")
             {
-                return "";
+                return new[] { "" };
             }
 
             var byteCount = int.Parse(result);
@@ -42,7 +42,7 @@ namespace TelnetingMythTv
 
             result = Encoding.ASCII.GetString(bufferBytes, 0, byteCount);
 
-            return result;
+            return result.Split(new[] { "[]:[]" }, StringSplitOptions.None);;
         }
 
         private string BuildMessage()

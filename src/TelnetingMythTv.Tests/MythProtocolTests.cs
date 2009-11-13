@@ -63,20 +63,6 @@ namespace TelnetingMythTv.Tests
             
             command.CommandText = "DONE";
             command.Execute();
-
-            CreateRecordings(result);
-        }
-
-        private void CreateRecordings(string result)
-        {
-            result = result.Substring(8);
-
-            var recordingsCount = int.Parse(result.Substring(0, result.IndexOf("[]:[]")));
-
-            result = result.Substring(result.IndexOf("[") + 5);
-
-            recordingsCount = 0;
-
         }
 	}
 }

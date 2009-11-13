@@ -15,3 +15,11 @@ C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\T
 C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\obj\Debug\TelnetingMythTv.Tests.dll
 C:\Documents and Settings\Harry\My Documents\repositories\telneting_mythtv\src\TelnetingMythTv.Tests\obj\Debug\TelnetingMythTv.Tests.pdb
+C:\repositories\github\telneting_mythtv\src\TelnetingMythTv.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\repositories\github\telneting_mythtv\src\TelnetingMythTv.Tests\obj\Debug\TelnetingMythTv.Tests.dll
+C:\repositories\github\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.Tests.dll
+C:\repositories\github\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.Tests.pdb
+C:\repositories\github\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Debug\nunit.framework.dll
+C:\repositories\github\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.dll
+C:\repositories\github\telneting_mythtv\src\TelnetingMythTv.Tests\bin\Debug\TelnetingMythTv.pdb
+C:\repositories\github\telneting_mythtv\src\TelnetingMythTv.Tests\obj\Debug\TelnetingMythTv.Tests.pdb
