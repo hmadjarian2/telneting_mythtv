@@ -13,26 +13,34 @@ namespace TelnetingMythTv.ConsoleApp
 			
 			var command = new ServerCommand(connection) {CommandText = "MYTH_PROTO_VERSION 40"};
 		    var result = command.Execute();	
-			Console.WriteLine(result);
+			Console.WriteLine(string.Format("{0}:{1}", result[0], result[1]));
 			
 			command.CommandText = "ANN Monitor Cena 0";
 			result = command.Execute();
-			Console.WriteLine(result);
+			Console.WriteLine(result[0]);
 			
 			command.CommandText = "QUERY_RECORDINGS Delete";
 			result = command.Execute();
-			Console.WriteLine(result);
+			Console.WriteLine(result.Length);
 
-            CreateRecordings(result);
-
+            var recordings = CreateRecordings(result);
+			for (var recording = 0; recording < recordings.GetLength(0); recording++)
+			{
+				for (var field = 0; field < recordings.GetLength(1); field++)
+				{
+					Console.Write(recordings[recording, field] + "\t");
+				}
+				Console.Write("\n");
+			}
+			
 			command.CommandText = "DONE";
 			result = command.Execute();
 			Console.WriteLine(result);
 
-            Console.ReadLine();
+            //Console.ReadLine();
 		}
 		
-        private static void CreateRecordings(string[] results)
+        private static string[,] CreateRecordings(string[] results)
         {
             var recordingsCount = int.Parse(results[0]);
 
@@ -48,6 +56,8 @@ namespace TelnetingMythTv.ConsoleApp
                     someOtherIndex++;
                 }
             }
-        }
+			
+			return recordings;
+		}
     }
 }

@@ -25,23 +25,35 @@ namespace TelnetingMythTv
 			
         	stream.Write(sendBytes, 0, sendBytes.Length);
         	
-            var buffer = new byte[1024];
-            stream.Read(buffer, 0, 8);
-            var result = Encoding.ASCII.GetString(buffer, 0, 8);
-
-            if (result.ToUpper() == "OK")
+            var buffer = new byte[8];
+            var bytesRead = stream.Read(buffer, 0, 8);
+            
+            if (bytesRead == 0)
             {
                 return new[] { "" };
             }
+            
+            var result = Encoding.ASCII.GetString(buffer, 0, 8);
 
-            var byteCount = int.Parse(result);
-
-            var bufferBytes = new Byte[byteCount];
-
-            stream.Read(bufferBytes, 0, byteCount);
-
-            result = Encoding.ASCII.GetString(bufferBytes, 0, byteCount);
-
+			if (result.ToUpper() == "OK")
+			{
+                return new[] { "" };
+			}
+			
+			var bytesAvailable = int.Parse(result);
+			var readBytes = new Byte[bytesAvailable];
+			
+			var totalBytesRead = 0;
+			result = string.Empty;
+			
+			while (totalBytesRead < bytesAvailable)
+			{
+            	bytesRead = stream.Read(readBytes, 0, bytesAvailable);
+				totalBytesRead += bytesRead;
+			
+            	result += Encoding.ASCII.GetString(readBytes, 0, bytesRead);
+			}
+			
             return result.Split(new[] { "[]:[]" }, StringSplitOptions.None);;
         }
 
