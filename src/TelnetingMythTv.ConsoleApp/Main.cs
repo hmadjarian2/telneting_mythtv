@@ -37,7 +37,7 @@ namespace TelnetingMythTv.ConsoleApp
 			result = command.Execute();
 			Console.WriteLine(result);
 
-            //Console.ReadLine();
+            Console.ReadLine();
 		}
 		
         private static string[,] CreateRecordings(string[] results)
@@ -46,14 +46,14 @@ namespace TelnetingMythTv.ConsoleApp
 
             var recordings = new string[recordingsCount, 46];
 
-            var someOtherIndex = 1;
+            var arrayIndex = 1;
 
             for (var index = 0; index < recordingsCount; index++)
             {
                 for (var field = 0; field < 46; field++)
                 {
-                    recordings[index, field] = results[someOtherIndex];
-                    someOtherIndex++;
+                    recordings[index, field] = results[arrayIndex];
+                    arrayIndex++;
                 }
             }
 			

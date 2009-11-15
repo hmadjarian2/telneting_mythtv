@@ -35,11 +35,6 @@ namespace TelnetingMythTv
             
             var result = Encoding.ASCII.GetString(buffer, 0, 8);
 
-			if (result.ToUpper() == "OK")
-			{
-                return new[] { "" };
-			}
-			
 			var bytesAvailable = int.Parse(result);
 			var readBytes = new Byte[bytesAvailable];
 			
@@ -54,7 +49,7 @@ namespace TelnetingMythTv
             	result += Encoding.ASCII.GetString(readBytes, 0, bytesRead);
 			}
 			
-            return result.Split(new[] { "[]:[]" }, StringSplitOptions.None);;
+            return result.Split(new[] { MythProtocolExtensions.Delimiter }, StringSplitOptions.None);;
         }
 
         private string BuildMessage()

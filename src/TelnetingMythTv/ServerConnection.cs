@@ -29,14 +29,6 @@ namespace TelnetingMythTv
             return _client.GetStream();
         }
 
-        public TcpClient Client
-        {
-            get
-            {
-                return _client;
-            }
-        }
-
         public bool Connected 
         {
             get
